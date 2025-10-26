@@ -23,7 +23,9 @@ curl -X PUT https://api.github.com/repos/yourusername/new-repo/import \
   -H "Authorization: token YOUR_PAT"
   git pull origin main
 # Add your Python scripts
-python3 auto_license.py  # Inject MIT headers
+python3 auto_licensed.py  # Inject MIT headers
+Biometric Fraud Detection Project Setup
+
 git add .
 git commit -m "Add fraud detection and DiD analysis"
 git push.
